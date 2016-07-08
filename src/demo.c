@@ -146,7 +146,7 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
     cvResizeWindow("Demo", 1352, 1013);
 
     double before = get_wall_time();
-
+    
     while(1){
         ++count;
         if(1){
